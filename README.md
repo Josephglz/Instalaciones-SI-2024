@@ -27,6 +27,18 @@ Bienvenidos al taller de fundamentos de Next.js 15. En este taller, aprenderemos
 - **Git** (Opcional): Para ejecución de comandos y manejo de archivos
   - [Descargar Git](https://git-scm.com/downloads)
 
+### 3. Creación y ejecución del proyecto
+- Para la creación del proyecto, abrir una terminal de GIT Bash (o de su preferencia)
+- Dirigirse a la carpeta dónde se desea crear dicho proyecto
+- Ejecutar el siguiente comando:
+  ```bash
+  npx create-next-app -e with-supabase
+* El valor de **NombreDelProyecto** pueden colocar cualquiera de su preferencia.
+- Una vez que termine la creación del proyecto podrán dirigirse a la carpeta que se generó y ejecutar el comando:
+  ```bash
+  npm run dev
+- Una vez realizado esto, podrán visualizar el proyecto en la url: `http://localhost:3000`
+  
 <hr>
 <div align="center"><a href="https://github.com/Josephglz" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
